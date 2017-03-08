@@ -11,10 +11,10 @@ public class L0402_OrderTwoCities {
     String city2 = input.nextLine();
     
     if (city1.compareTo(city2) < 0)
-      System.out.println("The cities in alphabetical order are " +
-         city1 + " " + city2);
+      System.out.println("The cities in alphabetical order are " +  city1 + " " + city2);
     else
-      System.out.println("The cities in alphabetical order are " +
-          city2 + " " + city1);
+      System.out.println("The cities in alphabetical order are " +  city2 + " " + city1);
+    
+    System.out.println("Bye-Bye");
   }
 }
